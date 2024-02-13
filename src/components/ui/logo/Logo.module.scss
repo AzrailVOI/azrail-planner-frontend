@@ -1,0 +1,21 @@
+@import "../../../constants/colors";
+.logo{
+  &_azrail{
+    font-size: 22pt;
+    line-height: 1;
+    font-weight: bold;
+    position: relative;
+    //border: .15rem solid $primary;
+    text-shadow: -.05rem 0 $primary, 0 .05rem $primary, .05rem 0 $primary, 0 -.05rem $primary;
+    //filter: drop-shadow(0px 0px .3rem $primary);
+  }
+  &_planner{
+    font-size: 18pt;
+    line-height: .4;
+    font-weight: lighter;
+    //filter: drop-shadow(0px 0px .3rem $primary);
+  }
+  &_version{
+    @apply text-xs
+  }
+}

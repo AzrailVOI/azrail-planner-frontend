@@ -1,0 +1,10 @@
+@import "../../../../constants/colors";
+.rdp{
+  --rdp-cell-size: 32px;
+  --rdp-caption-font-size: 15pt;
+  --rdp-background-color: rgba(255,255,255,.2);
+  --rdp-accent-color: $primary;
+
+  @apply m-1;
+  font-size: 85%;
+}
